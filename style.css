@@ -1,7 +1,6 @@
-body,
-html{
+#bodyhtml{
     width: 100%;
-    height: 85%;
+    height: 92%;
     font-family: 'Montserrat', sans-serif;
     background: url(tlo.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -10,23 +9,41 @@ html{
     background-size: cover;
 }
 
-.btn{
-    font-weight: 700;
-    border-radius: 300px;
+#btn{
+    font-weight: 300;
+    border-radius: 200px;
     text-transform: uppercase;
-}
-
-.btn-primary{
-    background-color: #F05F44;
-    border-color: #F05F44;
-}
-
-.btn-primary:hover{
     background-color: #ee4b08;
     border-color: #ee4b08;
-    border-width: 4px;
+    padding: 1rem 2rem;
 }
 
-.btn-xl{
-    padding: 1rem 2rem;
+#bodyhtml2{
+    width: 100%;
+    height: 92%;
+    font-family: 'Montserrat', sans-serif;
+    background: url(tlo2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#h1about{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#h3about{
+    margin-top: 5rem;
+    color: white;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#pabout{
+    margin-left: 2rem;
+    color:white;
 }
